@@ -1,0 +1,108 @@
+/* 
+
+Position Sticky
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 1000px;
+}
+
+header {
+    background-color: rgb(211, 211, 211);
+    height: 100px;
+}
+
+.objeto {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0
+} 
+
+*/
+
+
+
+/* 
+
+Position Relative
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 609px;
+    background: gray;
+}
+
+.relative {
+    position: relative;
+    top: 300px;
+} 
+
+*/
+
+
+
+/* 
+
+Position Absolute
+
+.container {
+    position: absolute;
+    background-color: rgb(253, 231, 202);
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+}
+
+#bloco-1, #bloco-2, #bloco-3 {
+    position: relative;
+    font-family: cursive;
+    color: black;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#bloco-1 {
+    background-color: #c0ffa8;
+}
+
+#bloco-2 {
+    background-color: #b7e2ff;
+}
+
+#bloco-3 {
+    background-color: #ffacac;
+} 
+
+*/
+
+/* body {
+    height: 1000px
+}
+
+.container {
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+div {
+    padding: 16px;
+    position: fixed;
+    height: 55px;
+    width: 55px;
+    background-color: blanchedalmond;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 10px;
+} */

@@ -1,0 +1,51 @@
+/* 
+    flex-direction: row; /* Eixo Horizontal (Padrão) 
+    flex-direction: row-reverse;  Reverso
+    flex-direction: column; Eixo Vertical
+    flex-direction: column-reverse; Eixo Vertical (Reverso)
+*/
+
+/*
+    justify-content: flex-start; Inicial 
+    justify-content: flex-end; Fim 
+    justify-content: center; Centro 
+    justify-content: space-between; Distribui os elementos ao longo do eixo principal
+    justify-content: space-around; Espaço envolta dos elementos ao longo do eixo principal
+*/
+
+/*
+    align-items: center; Centro 
+    align-items: flex-start; Começa no começo do eixo vertical 
+    align-items: flex-end; Começa no fim do eixo vertical  
+    align-items: stretch; Preenche com seu espaço todo no container
+    align-items: baseline; Vai alinhar com base do conteudo 
+*/
+
+/*
+    flex-wrap: nowrap; Padrão Tenta deixar tudo na mesma linha
+    flex-wrap: wrap-reverse; Tenta deixar tudo na mesma linha so que reverte
+    flex-wrap: wrap; Joga para linha baixo oque não caber 
+
+/*
+    align-content Alinhar elementos em mais de uma linha
+    align-content: flex-start; Alinha os elementos no inicio
+    align-content: flex-end; Alinha os elementos no fim
+    align-content: center; Alinha os elementos no centro
+    align-content: space-between; Alinha os elementos com espaços entre as linhas
+    align-content: space-around; Alinha os elementos com espaços envolta deles
+*/
+
+/*
+    gap: 10px; Espaçamento entre as linhas e as colunas
+    row-gap: 10px; Espaçamento entre as linhas
+    column-gap: 30px; Espaçamento entre as colunas
+*/
+
+/*
+    order: 0; Ordem padrão
+    flex-grow: 0; Nenhum elemento vai crescer Padrão
+    flex-shrink: 1; Padrão diminuir
+    flex-basis: auto; Padrão 
+    flex: 0 1 auto;
+    align-self: center/flex-end/flex-start... Desobedece o container pai e faz oque setou
+*/

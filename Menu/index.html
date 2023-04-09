@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script src="https://kit.fontawesome.com/6c5b2a3ba2.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(68.15deg, #f3f3f3 16.62%, #cccccc 85.61%)
+        }
+
+        header {
+            background-color: transparent;
+            box-shadow: 0 0 7px rgb(170, 170, 170);
+            padding: 10px;
+            display: flex;
+            height: 80px;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .logo {
+            color: black;
+            font-size: 20px;
+            width: 90%; 
+            font-family: 'Righteous', cursive;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .menu {
+            position: absolute;
+            left: 0;
+            top: 80px;
+            width: 100%;
+            overflow: hidden;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        .hide {
+            transition: .5s;
+            height: 0;
+        }
+
+        .show {
+            transition: 1s;
+            height: 140px;
+        }
+
+        .menu a {
+            display: inline-block;
+            padding: 10px 0;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        .icon-menu {
+            text-align: right;
+            font-size: 24px;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Zyer Code</div>
+        <div class="icon-menu"><i class="fa-solid fa-bars"></i></div>
+        <div id="menu" class="menu hide">
+            <a href="#">Home</a>
+            <br>
+            <a href="#">Sobre</a>
+            <br>
+            <a href="#">Contato</a>
+        </div>
+    </header>
+
+    <script>
+        var iconMenu = document.querySelectorAll('.icon-menu');
+
+        iconMenu[0].addEventListener('click', () => {
+            let menu = document.getElementById("menu");
+
+            if (menu.classList.contains('hide')) {
+                menu.classList.add('show');
+                menu.classList.remove('hide')
+            } else {
+                menu.classList.add('hide');
+                menu.classList.remove('show')
+            }
+
+
+        })
+    </script>
+</body>
+
+</html>
