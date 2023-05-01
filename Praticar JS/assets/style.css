@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-pai-container {
+    display: flex;
+    background-color: bisque;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#div-filho-1 {
+    background-color: rgb(255, 192, 252);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#div-filho-2 {
+    background-color: #ffffbe;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#div-filho-3 {
+    background-color: #ffcc89;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.aumentar {
+    transition: .5s;
+    padding: 100px;
+}
+
+.diminuir {
+    transition: .5s;
+    height: 0px;
+    width: 0px;
+}
